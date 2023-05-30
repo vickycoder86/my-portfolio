@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <body style="background-color: rgb(221, 193, 248);">
+    <style>
+        .button
+        {
+            border-radius: 10px;
+            font-weight: 600;
+            font-size:medium;
+        }
+        .register{
+            
+            background-color:lightgray;
+            border: 2px solid rgb(102, 33, 118);
+            width: 250px;
+            margin: auto;   
+            display: flex;
+            flex-direction: column;
+            padding: 12px;
+            row-gap: 12px;
+            align-items:baseline;
+            -webkit-box-shadow: 10px 10px 195px 0px rgb(172, 16, 219);
+-moz-box-shadow: 10px 10px 195px 0px rgba(13,124,130,1);
+box-shadow: 10px 10px 195px 0px rgb(218, 157, 215);
+        }
+
+
+    </style>
+</head>
+<h1>Contact ME/Inquiry</h1>
+
+<div>
+    <a href="/index.html" target="_blank">
+        <img src="/images/HOME1.jpg" height="90px" width="90px"/>
+
+    </a>
+    </div>
+<body>
+    
+    <form class="register">
+    <label>Name*</label>
+    <input type="text" placeholder="Enter Your Name"/>
+    <br>
+    <label>Phone number:</label>
+    <input type="text" maxlength="10" placeholder="Enter Phone number"/>
+    <br>
+    <label>Email address*:</label>
+    <input type="email" placeholder="Type Your Email @.com"/>
+    <br>
+    <label>Comments*:</label>
+    <textarea name="Comments" rows="7" cols="40" style="max-width: 350px;width: 100%;"></textarea>
+    <br>
+    <input type="submit" value="Submit" class="button" onclick="alert('Submit') "/>
+    </form>
+</body>
+</html>

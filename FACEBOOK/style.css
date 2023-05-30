@@ -1,0 +1,105 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: #f0f2f5;
+    font-family: sans-serif;
+}
+.container
+{
+    width: 350px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.logo
+{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.logo img
+{
+    max-width: 100%
+}
+form{
+    background-color: #fff;
+    padding: 30px;
+    border: 1px solid #dddfe2;
+}
+form input
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    border: 1px solid #dddfe2;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+form button
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    background-color: #1877f2;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+form button:hover
+{
+    background-color: #166fe5;
+}
+.separator
+{
+    text-align: center;
+    margin: 20px 0;
+    font-size: 14px;
+    color: #606770;
+    position: relative;
+}
+.separator span
+{
+    position: relative;
+    z-index: 1;
+    background-color: #f0f2f5;
+    padding: 0 10px;
+}
+.separator::before
+{
+    content: '';
+    display: block;
+    height: 1px;
+    background-color: #dddfe2;
+    position:absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+}
+.create_account
+{
+    background-color: #42b72a;
+}
+.create_account:hover
+{
+    background-color: #36a420;
+}
+a{
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    color: #385185;
+    text-decoration: none;
+    margin-top: 10px;
+}
+a:hover
+{
+    text-decoration: underline;
+
+}
